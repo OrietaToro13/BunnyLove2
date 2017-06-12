@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+	padding: 0px;
+/*	font-family: 'Prompt', sans-serif;*/
+/*	font-family: 'Baloo Paaji', cursive;*/
+	background-color: #e2edf0;
+}
+.flex-container{
+	display: flex;
+}
+header{
+	width: 100%;
+	justify-content: center;
+}
+#botonera{
+	background-color: #0091bd;
+	text-decoration: none;
+	width: 100%;
+	height: 100px;
+	justify-content: center;
+}
+.menu-botones{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 70%;
+	
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 80%;
+}
+ul li a{
+	display: flex;
+	color: #d6d6d6;
+	font-family: 'Prompt', sans-serif;
+}
+a:hover{
+	background-color: #334570;
+	padding: 1,5%;
+}
+li{
+	padding-left: 6%;
+}
+ul{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	list-style-type: none;
+	width: 59%;
+	height: 15%;
+}
+.letters{
+	display: flex;
+	justify-content: flex-start;
+	padding-right: 21%;
+}
+#one{
+	font-family: 'Baloo Paaji', cursive;
+	color: white;
+	font-size: 200%;
+}
+#two{
+	font-family: 'Baloo Paaji', cursive;
+	color: #ffadff;
+	font-size: 200%;
+}
+/* picture of rabbit*/
+#home{
+	width: 100%;
+	height: 60%;
+	justify-content: center;
+}
+.conejo1{
+	display: flex;
+	justify-content: center;
+}
+
